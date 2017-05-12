@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+/* Body */
+/* Set the body background */
+body {
+	background: url(http://thepatternlibrary.com/img/h.jpg);
+}
+
+/* Set the border radius and background color for the body text */
+.text {
+	border-radius: 2px;
+	background: #fff;
+}
+
+/* Set the padding for the body text */
+h1, h2, h3, h4, h5, h6, p{
+	padding: 0 16px;
+}
+
+.image {
+	display: table;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+/* Header */
+/* Change the link bg color when hovering over it */
+.mdl-navigation .mdl-navigation__link:hover {
+	background-color: #00796B;
+}
+
+/* Change bg color of current page link in header */
+.current {
+	background-color: #00796B;
+}
+
+/* Change bg color of current page link in sub menu of header */
+.mdl-menu__item.current {
+	background-color: #e0e0e0;
+}
+
+/* Change the link bg color in sub menu when hovering over it */
+.mdl-menu__item:hover {
+	background-color: #e0e0e0;
+}
+
+/* Change bg color of current page link in drawer */
+.mdl-layout__drawer .current {
+	background-color: #e0e0e0;
+}
+
+/* Enable own padding values for links in header */
+#submenu {
+	padding: 0 12px 0 24px;
+}
+
+/* Home */
+/* Set width and margin for the cards */
+.about.mdl-card {
+	margin: auto;
+	width: 512px;
+}
+/* Set color of text and height of picture for the cards */
+.about > .mdl-card__title {
+	color: #fff;
+	height: 350px;
+}
+
+/* Set picture for Mart's card */
+#mart > .mdl-card__title {
+	background: url(/img/home/Mart.jpg) center / cover;
+}
+
+/* Set picture for Thomas' card */
+#thomas > .mdl-card__title {
+	background: url(/img/home/Thomas.jpg) center / cover;
+}
+
+/* Set picture for Xander's card */
+#xander > .mdl-card__title {
+	background: url(/img/home/Xander.jpg) center / cover;
+}
